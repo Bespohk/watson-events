@@ -64,7 +64,7 @@ with open(os.path.join(path, 'requirements.txt')) as f:
 setup(
     name='watson-events',
     version=watson.events.__version__,
-    url='http://github.com/bespohk/watson-events',
+    url='http://github.com/watsonpy/watson-events',
     description='Trigger and handle event flow with your application.',
     long_description=readme,
 

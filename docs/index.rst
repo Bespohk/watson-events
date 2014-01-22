@@ -39,10 +39,10 @@ Table of Contents
 .. include:: toc.rst.inc
 
 
-.. |Build Status| image:: https://api.travis-ci.org/Bespohk/watson-events.png?branch=master
-   :target: https://travis-ci.org/Bespohk/watson-events
-.. |Coverage Status| image:: https://coveralls.io/repos/bespohk/watson-events/badge.png
-   :target: https://coveralls.io/r/bespohk/watson-events
+.. |Build Status| image:: https://api.travis-ci.org/watsonpy/watson-events.png?branch=master
+   :target: https://travis-ci.org/watsonpy/watson-events
+.. |Coverage Status| image:: https://coveralls.io/repos/watsonpy/watson-events/badge.png
+   :target: https://coveralls.io/r/watsonpy/watson-events
 .. |Version| image:: https://pypip.in/v/watson-events/badge.png
    :target: https://pypi.python.org/pypi/watson-events/
 .. |Downloads| image:: https://pypip.in/d/watson-events/badge.png

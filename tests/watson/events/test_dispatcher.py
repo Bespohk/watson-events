@@ -55,11 +55,6 @@ class TestEventDispatcher(object):
         result = dispatcher.trigger(Event('SampleEvent'))
         assert result.first() == 'SampleEvent'
 
-    def test_trigger_invalid_event(self):
-        with raises(TypeError):
-            dispatcher = EventDispatcher()
-            dispatcher.trigger('test')
-
     def test_stopped_propagation(self):
         dispatcher = EventDispatcher()
 

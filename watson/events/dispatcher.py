@@ -107,14 +107,12 @@ class EventDispatcher(object):
         Returns:
             Result: A list of all the responses
         """
-        if not isinstance(event, types.Event):
-            raise TypeError('event must be of type watson.events.type.Event')
         results = collections.Result()
         event.params['dispatcher'] = self
         if event.name in self.events:
             collection = self.events[event.name]
             collection.sort_priority()
-            for (callback, priority, only_once) in collection[:]:
+            for (callback, priority, only_once) in collection:
                 results.append(callback(event))
                 if only_once:
                     collection.remove(callback)

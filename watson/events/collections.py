@@ -30,10 +30,7 @@ class Listener(list):
         if not hasattr(callback, '__call__'):
             name = get_qualified_name(callback)
             raise TypeError('Callback {0} must be callable.'.format(name))
-        self.append(
-            ListenerDefinition(callback,
-                               int(priority),
-                               bool(only_once)))
+        self.append(ListenerDefinition(callback, priority, only_once))
         self.require_sort = True
         return self
 

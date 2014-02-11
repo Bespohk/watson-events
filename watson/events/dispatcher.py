@@ -54,10 +54,9 @@ class EventDispatcher(object):
         Returns:
             ListCollection: A list of listeners attached to the event
         """
-        event = str(event)
-        if event not in self.events:
-            self.events[event] = collections.Listener()
-        self.events[event].add(callback, int(priority), bool(only_once))
+        self.events.setdefault(event,
+                               collections.Listener()).add(callback, priority,
+                                                           only_once)
         return self.events[event]
 
     def remove(self, event, callback=None):
@@ -74,7 +73,7 @@ class EventDispatcher(object):
         Returns:
             Listener: A list of listeners attached to the event
         """
-        event = str(event)
+        event = event
         if event not in self or not callback:
             self.events[event] = collections.Listener()
         if callback:

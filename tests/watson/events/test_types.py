@@ -20,10 +20,6 @@ class TestEvent(object):
         del event.params['test']
         assert 'test' not in event.params
 
-    def test_set_invalid_params(self):
-        with raises(TypeError):
-            Event('SampleEvent', params='test')
-
     def test_set_valid_params(self):
         event = Event('SampleEvent', params={'test': 'test'})
         assert event.params['test'] == 'test'

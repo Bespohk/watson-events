@@ -113,6 +113,7 @@ class EventDispatcher(object):
             collection.sort_priority()
             for (callback, priority, only_once) in collection:
                 results.append(callback(event))
+                collection.sort_priority()
                 if only_once:
                     collection.remove(callback)
                 if event.stopped:

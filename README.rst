@@ -25,9 +25,9 @@ Dependencies
    :target: https://travis-ci.org/watsonpy/watson-events
 .. |Coverage Status| image:: https://coveralls.io/repos/watsonpy/watson-events/badge.png
    :target: https://coveralls.io/r/watsonpy/watson-events
-.. |Version| image:: https://pypip.in/v/watson-events/badge.png
+.. |Version| image:: http://badge.kloud51.com/pypi/v/watson-events.png
    :target: https://pypi.python.org/pypi/watson-events/
-.. |Downloads| image:: https://pypip.in/d/watson-events/badge.png
+.. |Downloads| image:: http://badge.kloud51.com/pypi/d/watson-events.png
    :target: https://pypi.python.org/pypi/watson-events/
-.. |Licence| image:: https://pypip.in/license/watson-events/badge.png
+.. |Licence| image:: http://badge.kloud51.com/pypi/license/watson-events.png
    :target: https://pypi.python.org/pypi/watson-events/

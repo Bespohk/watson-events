@@ -9,7 +9,7 @@ Docs <http://watson-events.readthedocs.org/>`__.
 Build Status
 ^^^^^^^^^^^^
 
-|Build Status| |Coverage Status| |Version| |Downloads| |Licence|
+|Build Status| |Coverage Status| |Version|
 
 Installation
 ------------
@@ -21,9 +21,9 @@ Dependencies
 
 -  watson-common
 
-.. |Build Status| image:: https://api.travis-ci.org/watsonpy/watson-events.png?branch=master
+.. |Build Status| image:: https://img.shields.io/travis/watsonpy/watson-events.svg?maxAge=2592000
    :target: https://travis-ci.org/watsonpy/watson-events
-.. |Coverage Status| image:: https://coveralls.io/repos/watsonpy/watson-events/badge.png
+.. |Coverage Status| image:: https://img.shields.io/coveralls/watsonpy/watson-events.svg?maxAge=2592000
    :target: https://coveralls.io/r/watsonpy/watson-events
 .. |Version| image:: https://img.shields.io/pypi/v/watson-events.svg?maxAge=2592000
    :target: https://pypi.python.org/pypi/watson-events/

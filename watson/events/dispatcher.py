@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from watson.common.imports import get_qualified_name
-from watson.events import collections, types
+from watson.events import collections
 
 
 class EventDispatcher(object):
